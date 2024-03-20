@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeLanding</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- NAV -->
+    <nav>  
+        <div class="container">
+            <div class="nav-class">
+                <div class="nav__logo">
+                    <a href="#hero"><img src="./images/logo.svg" alt=""></a>
+                </div>
+                <ul class="nav__ul">
+                    <li class="nav__list"><a class="nav__link" href="#hero">Home</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#listing">Listing</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#property">Property</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#blog">Blog</a></li>
+                    <li class="nav__list"><a class="nav__link" href="#contact">Contacts</a></li>
+                </ul>
+                <button class="regular__btn" style="margin-left: 100px;">Sign in</button>
+            </div>
+        </div>
+    </nav>
+    <!-- HERO -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1>Easy way to find a home
+                    that’s perfect for you</h1>
+                <span>The find and most trusted marketplace of 
+                    design & build house in the world.</span>
+                <div class="hero__box">
+                    <div class="box__top">
+                        <div class="box__funtions-top">
+                            <p>Rent</p>
+                        </div>
+                        <div class="box__funtions-top">
+                            <p>Buy</p>
+                        </div>
+                        <div class="box__funtions-top">
+                            <p>Sell</p>
+                        </div>
+                    </div>
+                    <div class="box__bottom">
+                        <div class="box__functions-bottom">
+                            <p> <img src="./images/Location.svg" alt="">Location</p>
+                            <h3>Los Angels</h3>
+                        </div>
+                        <div class="box__functions-bottom">
+                            <p> <img src="./images/Property.svg" alt="">Property Type</p>
+                            <h3>Delux</h3>
+                        </div>
+                        <div class="box__functions-bottom" style="border: none;">
+                            <p> <img src="./images/Price.svg" alt="">Average Price</p>
+                            <h3>$7000 - 8000</h3>
+                        </div>
+                        <button class="regular__btn" style="padding: 18px 50px;">search</button>
+                    </div>
+                </div>   
+                
+                    
+            </div>
+            <div class="hero__house"></div>
+        </div>
+        
+        
+    </section>
+    <!-- PROPERTIES -->
+    <div class="container">
+        <div id="property" class="properties">
+            <div class="property__header">
+                <div class="property__content">
+                    <h3 class="content-title">See our properties</h3>
+                    <p class="content-text">The modern way to sell/buy/rent your own home.</p>
+                </div>
+                <div class="radios" style="color: rgba(128, 128, 128, 0.58);">
+                    <form>
+                        <div class="radio-group">
+                            <label for="rent"><input id="rent" class="radio" type="radio" name="selection"> Rent</label>
+                            <label for="buy"><input id="buy" class="radio" type="radio" name="selection"> Buy</label>
+                            <label for="sell"><input id="sell" class="radio" type="radio" name="selection">  Sell</label>
+                        </div>
+                      </form>
+                </div>
+            </div>
+            <div class="property__wrapper">
+                <div class="property__card">
+                    <div class="property__img">
+                        <img src="./images/p-card-1.png" alt="">
+                    </div>
+                    <div class="property__card_content">
+                        <h3>Nomaden Omah Sekut</h3>
+                        <p style="color: gray; font-size: 16px;">San Diego, California, USA</p>
+                        <p class="price">$699,000</p>
+                        <div class="facility">
+                            <p style="font-size: 14px;">2 beds</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">1 bath</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">1,109 sqft</p>
+                        </div>
+                    </div>
+                    <div class="property__button">
+                        <p>see details</p>
+                    </div>
+
+                </div>
+                <div class="property__card">
+                    <div class="property__img">
+                        <img src="./images/p-card2.png" alt="">
+                    </div>
+                    <div class="property__card_content">
+                        <h3>Real Bluestyle House</h3>
+                        <p style="color: gray; font-size: 16px;">San Diego, California, USA</p>
+                        <p class="price">$10,000,000</p>
+                        <div class="facility">
+                            <p style="font-size: 14px;">3 beds</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">2 bath</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">1,309 sqft</p>
+                        </div>
+                    </div>
+                    <div class="property__button">
+                        <p>see details</p>
+                    </div>
+
+                </div>
+                <div class="property__card">
+                    <div class="property__img">
+                        <img src="./images/p-card3.png" alt="">
+                    </div>
+                    <div class="property__card_content">
+                        <h3>Luxury Umahu Mantappu</h3>
+                        <p style="color: gray; font-size: 16px;">San Diego, California, USA</p>
+                        <p class="price">$599,000</p>
+                        <div class="facility">
+                            <p style="font-size: 14px;">2 beds</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">1 bath</p>
+                            <p style="font-size: 14px;">|</p>
+                            <p style="font-size: 14px;">1,009 sqft</p>
+                        </div>
+                    </div>
+                    <div class="property__button">
+                        <p>see details</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="property__footer">
+                <div class="arrows">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#772d8b" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path class="arrow" fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
+                    </svg>
+                </div>
+                <div class="arrows">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#772d8b" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path class="arrow" fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+                        </svg>
+                </div>
+            </div>
+        </div>  
+    </div>
+    <!-- BENEFIT -->
+    <div class="corner-circle"></div>
+    <div class="container">
+        <div id="listing" class="benefit__wrapper">
+            <div class="benefit__img">
+                <img style="max-width: 100%;" src="./images/benefit-img.png" alt="">
+                <div class="benefit__box">
+                    <p style="font-weight: 600; font-size: 20px;">Discover Place</p>
+                    <small style="font-size: 15px; color: gray;">San Diego, CA</small>
+                    <div class="img_grouper">
+                        <img src="./images/benefit-card1.png" alt="">
+                        <img src="./images/benefit-card2.png" alt="">
+                        <img src="./images/benefit-card3.png" alt="">
+                        <div class="small-square">
+                            <img style="height: 55px; width: 100%;" src="./images/Arrow0.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit__content">
+                <h3 class="content-title">See some benefit from our properties</h3>
+                <div class="benefit__features">
+                    <div class="benefit-square">
+                        <img src="./images/shield.svg" alt="">
+                    </div>
+                    <div>
+                        <h3>100& Protection</h3>
+                        <p>All secure protection for your future </p>
+                    </div>
+                </div>
+                <div class="benefit__features">
+                    <div class="benefit-square">
+                        <img src="./images/home.svg" alt="">
+                    </div>
+                    <div>
+                        <h3>Top Tier House</h3>
+                        <p>We just provide top tier house for you</p>
+                    </div>
+                </div>
+                <div class="benefit__features">
+                    <div class="benefit-square">
+                        <img src="./images/transparency.svg" alt="">
+                    </div>
+                    <div>
+                        <h3>Transparancy</h3>
+                        <p>Transparancy is always for customers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- EVENTS -->
+    <div style="position: relative;">
+        <div class="heart_shaped-bigger"></div>
+        <div class="heart_shaped"></div>
+    </div>
+    <div class="container">
+        <div id="blog" class="benefit__wrapper" style="margin: 200px 0;">
+            <div class="benefit__content">
+                <h3 class="content-title">What’s happening in San Diego, CA</h3>
+                <p class="content-text">
+                    Over 30,000+ people work for us and more than 70 total countries all over the world, 1,850 homes for sale 2 open house 3,700 home recently sold 150 price reduceed 2 for elsoures.
+                </p>
+                <div style="display: flex; align-items: center; justify-content: space-around;">
+                    <div class="benefit__features">
+                        <div>
+                            <h3>1,850</h3>
+                            <p>HOMES FOR SALE</p>
+                        </div>
+                    </div>
+                    <div class="benefit__features">
+                        <div>
+                            <h3>3,700</h3>
+                            <p>RECENTLY SOLD</p>
+                        </div>
+                    </div>
+                    <div class="benefit__features">
+                        <div>
+                            <h3>12</h3>
+                            <p>YEARS EXPERIENCE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="benefit__card">
+                <div style="display: flex; align-items: end; justify-content: end; max-width: 100%; width: 100%;">
+                    <img class="burger" src="./images/three-dots.svg" alt="">
+                </div>
+                <div class="card__img_benefit">
+                    <img src="./images/events-house.png" alt="">
+                    <div class="google">
+                        <img src="./images/google.svg" alt="">
+                    </div>
+                    <div class="saved">
+                        <img src="./images/saved.svg" alt="">
+                    </div>
+                </div>
+                <div class="talent">
+                    <div class="avatars__group">
+                        <div class="avatar">
+                            <img src="./images/avatar1.svg" alt="">
+                        </div>
+                        <div class="avatar a2">
+                            <img src="./images/avatar2.svg" alt="">
+                        </div>
+                        <div class="avatar a3">
+                            <img src="./images/avatar3.svg" alt="">
+                        </div>
+                        <div class="avatar a4">
+                            <img src="./images/avatar4.svg" alt="">
+                        </div>
+                        
+                    </div>
+                    <p style="padding-top: 15px;">10+ Talented People</p>
+                </div>
+                <p class="content-text" style="font-size: 12px;">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
+                </p>
+                <div class="benefit__card__footer">
+                    <img src="./images/repost.svg" alt="">
+                    <img src="./images/chat-svg.svg" alt="">
+                    <img src="./images/repost.svg" alt="">
+                </div>
+                <div class="inside__card">
+                    <div class="inside_card_avatar">
+                        <img src="./images/inside-card-img.png" alt="">
+
+                    </div>
+                    <h3>San Diego, CA</h3>
+                    <small style="font-size: 10px; color: gray;">Real Estate</small>
+                    <br>
+                    <br>
+                    <div style="display: flex; align-items: center; justify-content: space-between;">
+                        <p style="font-size: 12px ; color: gray;">430 posts</p>
+                        <p style="font-size: 12px ; color: gray;"> 230k followers</p>
+                    </div>
+                    <div class="inside_btns">
+                        <button class="regular__btn resize">Following</button>
+                        <button class="regular__btn resize">Messages</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+<div id="agent" class="review_page">
+    <div class="testimonial">
+        <div class="container">
+            <img class="quotes" src="./images/quotes.svg" alt="">
+            <div class="benefit__wrapper">
+                <div class="benefit__img">
+                    <img class="man_pic" style="max-width: 80%;" src="./images/man.png" alt="">
+                    <img  class="half_moon" src="./images/half-moon.svg" alt="">
+                </div>
+                <div class="benefit__content">
+                    <strong> CLIENT TESTIMONIALS</strong>
+                    <h3 class="content-title">See what says our customer</h3>
+                    <p class="content-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <br>
+                    <br>
+                    <br>
+                    <h3>John Smith</h3>
+                    <small class="customer">Customer</small>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  class="pre__footer">
+        <img class="red_tag" src="./images/red-tag.svg" alt="">
+        <img class="dots" src="./images/dots.svg" alt="">
+        <img class="half-moon2" src="./images/half-moon2.svg" alt="">
+        <div class="container">
+            <div class="pre__footer_2">
+                <div class="pre_footer_content">
+                    <h2 class="content-title">Ready to find your next home?</h2>
+                    <p class="content-text" style="max-width: 500px;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum</p>
+                </div>
+                <div class="pre_footer_email">
+                    <form class="email_form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="regular__btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="contact">
+        <div class="container">
+            <div class="tabs">
+                <div class="tab">
+                    <div class="nav__logo">
+                        <a href="#hero"><img src="./images/logo.svg" alt=""></a>
+                    </div>
+
+                    <p class="content-text" style="max-width: 300px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="tab">
+                    <h4>Product</h4>
+                    <p><a href="#">Listing</a></p>
+                    <p><a href="#">Property</a></p>
+                    <p><a href="#">Agents</a></p>
+                    <p><a href="#">Blog</a></p>
+                </div>
+                <div class="tab">
+                    <h4>Resources</h4>
+                    <p><a href="#">Our Homes</a></p>
+                    <p><a href="#">Member Stories</a></p>
+                    <p><a href="#">Video</a></p>
+                    <p><a href="#">Free Trail</a></p>
+                </div>
+                <div class="tab">
+                    <h4>Company</h4>
+                    <p><a href="#">Patnerships</a></p>
+                    <p><a href="#">Terms of use</a></p>
+                    <p><a href="#">Privacy</a></p>
+                    <p><a href="#">Sitemap</a></p>
+                </div>
+                <div class="tab smaller-tab">
+                    <h4>Company</h4>
+                    <p><a href="#">You’ll find your next home, in
+                        any style you prefer.</a></p>
+
+                    <div class="social_media">
+                        <a class="for_media" href="https://www.facebook.com/">
+                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="facebook" d="M24.7986 20.2977H22.2492V29.6024H18.7711V20.2977H16.4398V17.0951L18.7711 17.0856L18.7617 15.2095C18.7617 12.5943 19.4724 11.0024 22.562 11.0024H25.1303V14.2051H23.5192C22.3251 14.2051 22.2587 14.6599 22.2587 15.4937V17.0951H25.1398L24.7986 20.2977Z" fill="#C8F3F9"/>
+                                <rect class="facebook_2" x="0.499756" y="1.10254" width="40" height="39" stroke="#C8F3F9"/>
+                            </svg>
+                        </a>
+                        <a class="for_media" href="https://www.instagram.com/">
+                            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="insta_path" d="M28.0638 11.0024H14.2691C12.9549 11.0024 11.8865 12.0099 11.8865 13.4672V27.7376C11.8865 29.195 12.9549 30.2024 14.2691 30.2024H28.0638C29.3781 30.2024 30.4465 29.195 30.4465 27.7376V13.4672C30.4465 12.0099 29.3781 11.0024 28.0638 11.0024ZM24.575 14.0052C24.575 13.5259 24.9532 13.1445 25.407 13.1445H27.506C27.9693 13.1445 28.338 13.5357 28.338 14.0052V16.0788C28.338 16.558 27.9598 16.9395 27.506 16.9395H25.407C24.9437 16.9395 24.575 16.5482 24.575 16.0788V14.0052ZM21.1901 16.8319C23.2513 16.8319 24.9153 18.5044 24.9153 20.5682C24.9153 22.632 23.2418 24.3045 21.1901 24.3045C19.1289 24.3045 17.4649 22.632 17.4649 20.5682C17.4649 18.5044 19.1289 16.8319 21.1901 16.8319ZM28.3475 27.2388C28.3475 27.6594 28.0166 28.0017 27.61 28.0017H14.6851C14.2786 28.0017 13.9476 27.6594 13.9476 27.2388V19.1206H15.6495C15.4982 19.639 15.4132 20.1965 15.4132 20.7638C15.4132 23.9622 17.9944 26.5444 21.1807 26.5444C24.367 26.5444 26.9482 23.9524 26.9482 20.7638C26.9482 20.1965 26.8631 19.639 26.7118 19.1206H28.3475V27.2388V27.2388Z" fill="#C8F3F9"/>
+                                <rect class="insta_rect" x="1.1665" y="1.10254" width="40" height="39" stroke="#C8F3F9"/>
+                                </svg>
+                                
+                        </a>
+                        <a class="for_media" href="https://www.linkedin.com/">
+                            <svg width="42" height="41" viewBox="0 0 42 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="linked_path" d="M29.9413 30.0345L29.9506 23.0567C29.9506 19.6402 29.2416 17.0151 25.3792 17.0151C23.5226 17.0151 22.2818 18.0671 21.7687 19.0708H21.7127V17.324H18.0556V30.0248H21.862V23.742C21.862 22.082 22.1699 20.4799 24.1477 20.4799C26.0976 20.4799 26.1349 22.3715 26.1349 23.8481V30.0345H29.9413Z" fill="#C8F3F9"/>
+                                <path class="linked_path" d="M15.6766 17.324H11.8608V30.0248H15.6766V17.324Z" fill="#C8F3F9"/>
+                                <path class="linked_path" d="M13.764 11.0024C12.5419 11.0024 11.553 12.0255 11.553 13.2898C11.553 14.5541 12.5419 15.5964 13.764 15.5964C14.9862 15.5964 15.9751 14.5541 15.9751 13.2898C15.9751 12.0255 14.9862 11.0024 13.764 11.0024Z" fill="#C8F3F9"/>
+                                <rect class="linked_rect" x="0.833008" y="1.10254" width="40" height="39" stroke="#C8F3F9"/>
+                                </svg>
+                        </a>
+                        <a class="for_media" href="https://twitter.com/">
+                            <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="twitter_path"  d="M29.2618 15.6437L29.273 16.2471C29.273 22.4432 24.7242 29.6024 16.4089 29.6024C13.8607 29.6024 11.4801 28.825 9.47949 27.479C9.82596 27.5255 10.1836 27.5487 10.5524 27.5487C12.676 27.5487 14.6207 26.7945 16.163 25.5297C14.1848 25.4949 12.5195 24.1373 11.9383 22.2692C12.2177 22.3272 12.4971 22.3504 12.7877 22.3504C13.2013 22.3504 13.6036 22.2924 13.9724 22.188C11.9048 21.7586 10.3513 19.8673 10.3513 17.5931V17.5467C10.9548 17.8948 11.6477 18.1036 12.3965 18.1268C11.1895 17.2914 10.396 15.841 10.396 14.2281C10.396 13.3695 10.6195 12.5573 11.0107 11.8611C13.2236 14.7039 16.5654 16.5604 20.3207 16.7577C20.2424 16.4212 20.2089 16.0615 20.2089 15.6902C20.2089 13.1026 22.2207 11.0024 24.7242 11.0024C26.0207 11.0024 27.2054 11.571 28.0324 12.4761C29.0495 12.2672 30.0218 11.8843 30.9048 11.3505C30.5695 12.4412 29.8542 13.3695 28.9154 13.9497C29.8318 13.8336 30.7036 13.5784 31.5195 13.2071C30.9048 14.1469 30.1336 14.9824 29.2618 15.6437Z" fill="#C8F3F9"/>
+                                <rect class="twitter_rect" x="0.499512" y="1.10254" width="40" height="39" stroke="#C8F3F9"/>
+                                </svg>
+                        </a>
+                    </div>    
+                </div>
+                
+            </div>
+            <hr>
+            <div class="footer__last">
+                <p>Copyright Abid Hasan Jilon 2021. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+</div>    
+</body>
+</html>
